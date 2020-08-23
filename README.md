@@ -10,7 +10,7 @@ working with multiple files just remember to load them in a list with their full
       
           list=os.listdir('My\files\folder')
           for i in range (len(list))
-            list[i]='path\untill\my\files
+            list[i]='path\untill\my\files+list[i]
             
 And just then make the copy iteration :           
          for i in list
